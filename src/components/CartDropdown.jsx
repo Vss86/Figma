@@ -2,6 +2,7 @@ import React from "react";
 import { useCart } from "../CartContext";
 import styles from "./CartDropdown.module.css";
 
+
 function CartDropdown() {
   const { cart } = useCart();
 

@@ -101,9 +101,16 @@ border-radius: 4px;
     margin: 0px 16px 114px 0px;
 }
 
-.productName {
-/*     white-space: nowrap; */
-}
+
+.cartItem:hover {
+    background-color: #f5f5f5;
+  }
+  
+  .addToCart:hover,
+  .checkout:hover {
+    cursor: pointer;
+    filter: brightness(1.2); /* Adjust brightness on hover */
+  }
 
 .totalPrice {
     font-family: 'Kumbh Sans';
